@@ -102,7 +102,7 @@
 
 #### 1. Відкриємо фронт-енд проект із лабораторної роботи №6 та запушимо його наступним чином:
 git init
-git remote add origin https://github.com/GAMECH1/lb-pr-front-end-8.git
+git remote add origin https://github.com/drose-25/lb-pr-front-end-8.git
 git add .
 git push -u origin main
 
