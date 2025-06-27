@@ -101,24 +101,19 @@
 ## 3) Створення власного Workflow
 
 #### 1. Відкриємо фронт-енд проект із лабораторної роботи №6 та запушимо його наступним чином:
-![25](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/25.png)
-![26](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/26.png)
-#### Рис. 24 - Пуш фронт-енду
+git init
+git remote add origin https://github.com/GAMECH1/lb-pr-front-end-8.git
+git add .
+git push -u origin main
 
 #### 2. Відкриємо сторінку створенного гітхабу та подивимось на результат:
-![27](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/27.png)
+![](imageslb8/25.jpg)
 #### Рис. 25 - Запушений фроент-енд
 
 #### 3. Створемо каталог ``.github``, в ньому каталог ``workflows``, і в ньому файл ``docker-build.yml`` з наступним змістом:
-![28](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/28.png)
+![](imageslb8/26.jpg)
 #### Рис. 26 - Файл docker-build.yml
 
 #### 4. Перейдемо на сторінку ``Actions`` і побачимо що все працює корректно:
-![29](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/29.png)
-#### Рис. 27 - Результат роботи файлу docker-build.yml
-
-#### 5. Перейдемо на свій профіль та на сторінку ``Packages`` і побачимо що з'явився докер екземпляр:
-![30](https://github.com/GAMECHl/PR-LB-8-Hurzidze-Anton/blob/main/30.png)
-#### Рис. 28 - Сторінка Packages в гітхабі
 
 ## Висновки: Протягом виконання лабораторно-практичної роботи я ознайомився з принципами і практиками неперервної інтеграції та сформував навички автоматизації CI/CD процесів в GitHub Actions
